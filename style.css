@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.row{
+    max-width: 1200px;
+    margin: auto;
+}
+
+#animated-box{
+    height: 100vh;
+    background: linear-gradient(rgba(57, 57, 57,0.55),rgb(46, 46, 46,0.75)), url(img/bg.jpg) no-repeat center top / cover;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.animated-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hello{
+    font-weight: 700;
+    font-size: 50px;
+    margin: auto;
+    color: #7fff00;
+}
+.animated-text h1{
+    font-weight: 300;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin: 15px 0;
+}
+.social-icons ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.social-icons ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.social-icons ul li a{
+    color: #fff;
+    font-size: 30px;
+}
+.ah-headline.clip .ah-words-wrapper::after{
+    position: absolute;
+    top: 16px;
+    right: 0;
+    width: 2px;
+    height: 68%;
+    background-color: #fff;
+}
+#choyon {
+    color:#7fff;
+}
+#web1 {
+    color: 	#ffff00;
+}
+#web2 {
+    color:#3399ff;
+}
+#am {
+    color: #7fff00;
+}
